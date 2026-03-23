@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min hjemmeside</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto 220px;
+        padding: 10px;
+        }
+
+        .container div {
+        padding: 10px;
+        text-align: center;
+        }
+   
+        .container2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        }
+
+        .container2 div {
+        padding: 10px;
+        text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bambush</h1>
+</header>
+
+<nav>
+    <a href="index.html">Hjem</a>
+    <a href="Produkter.html">Produkter</a>
+    <a href="OmOs.html">Om os</a>
+</nav>
+
+
+<main>
+    <div class="container">
+    <div style="font-size: 24px; font-weight: bold;">Hvem er vi?</div>
+    <div style="font-size: 24px; font-weight: bold;">Pandas inspiration</div>
+    <div></div>
+    <div style="border-style: hidden groove;">Vi skabte vores bambus T-shirts for at gøre det lettere – og billigere – at træffe det rigtige valg for naturen, uden at gå på kompromis med kvaliteten. Vores T-shirts er bløde, holdbare og behagelige at have på, samtidig med at de er produceret med omtanke for miljøet. Vi mener at, at ansvarligt tøj ikke behøver at være dyrt – det skal bare være ordentligt lavet.</div>
+    <div style="border-style: hidden groove hidden hidden;">Panda er en ung iværksætter som har lavet sin virksomhed Bambush. Panda ønsker at Bambush' kunder har det godt og får produkter af en god kvalitet, lige såvel som det skal være bæredygtige materialer så vi sammen passer godt på vores klode.</div>
+    <figure>
+    <img style="margin-left: 10px;" src="foto/Panda.jpg" alt="Pandas portræt" width="240" height="170">
+    <figcaption>Vores skaber, Panda </figcaption>
+    </figure>
+
+</main>
+
+<footer>
+    <div class="container2">
+    <div>© 2026 • Bambush</div>
+    <div style="font-size: 14.5px;">Kontakt os på: <br> Tlf: (+45) 1234 5678 <br> Mail: info@bambush.dk</div>
+    <div>Vores politikker: <br> <a href="Handelsbetingelser.html" style="color: white; font-size: 14.5px;">Handelsbetingelser</a></div>
+    </div>
+</footer>
+<!-- Cookie boks -->
+<div id="cookie-box">
+    <p>Vi bruger cookies til at forbedre din oplevelse. Ved at fortsætte accepterer du brugen af cookies.</p>
+    <button id="accept-cookies">Accepter</button>
+</div>
+
+<script src="script.js" ></script>
+
+</body>
+</html>

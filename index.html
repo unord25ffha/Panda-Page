@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min hjemmeside</title>
+    <link rel="stylesheet" href="style.css">
+    <style>  
+    
+.image-grid {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    }
+
+.image-grid img {
+    width: 100%;
+    height: 86%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    }
+
+.image-grid img:hover {
+    transform: scale(1.05);
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        }
+
+        .container div {
+        padding: 10px;
+        text-align: center;
+        }
+
+    figcaption {
+    background-color: #b6d96c;     
+}
+        
+</style>
+</head>
+
+<body>
+
+
+
+<header>
+    <h1>Bambush</h1>
+</header>
+
+<nav>
+    <a href="index.html">Hjem</a>
+    <a href="Produkter.html">Produkter</a>
+    <a href="OmOs.html">Om os</a>
+</nav>
+
+<main>
+    <h2>Pandaens Bambus T-shirts</h2>
+    <p style="padding: 5px; font-size: 16.5px;">Vores bæredygtige t-shirts lavet af silkeblødt bambus-lyocell, som sikrer en luksuriøs oplevelse for dig</p>
+    <br>
+    <h3 style="font-size: 22px; font-weight: bold; margin-bottom: 5px;">Vores udvalgte t-shirts</h3>
+    <hr>
+    <div class="image-grid">
+        <figure>
+        <img src="foto/foto_kemi.png" alt="Kemi-panda">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Luksus t-shirt <br>Pris: 249 kr</figcaption>
+        </figure>
+        <figure>
+        <img src="foto/foto_kinesisk.png" alt="Spiser dumpling">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Luksus t-shirt <br>Pris: 249 kr</figcaption>
+        </figure>
+        <figure>
+        <img src="foto/foto_kriger.png" alt="Kriger-panda">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Luksus t-shirt <br>Pris: 249 kr</figcaption>
+        </figure>
+        <figure>
+        <img src="foto/foto_spidy.png" alt="Panda med spindelvæv">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Luksus t-shirt <br>Pris: 249 kr</figcaption>
+        </figure>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+    <div>© 2026 • Bambush</div>
+    <div style="font-size: 14.5px;">Kontakt os på: <br> Tlf: (+45) 1234 5678 <br> Mail: info@bambush.dk</div>
+    <div>Vores politikker: <br> <a href="Handelsbetingelser.html" style="color: white; font-size: 14.5px;">Handelsbetingelser</a></div>
+    </div>
+</footer>
+<!-- Cookie boks -->
+<div id="cookie-box">
+    <p>Vi bruger cookies til at forbedre din oplevelse. Ved at fortsætte accepterer du brugen af cookies.</p>
+    <button id="accept-cookies">Accepter</button>
+</div>
+
+<script src="script.js" ></script>
+
+</body>
+</html>

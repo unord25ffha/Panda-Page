@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkter</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+      .image-grid {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: 86%;
+    border-radius: 8px;
+    object-fit: fill;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
+}
+
+p {
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        }
+
+        .container div {
+        padding: 10px;
+        text-align: center;
+        }
+    
+figcaption {
+    background-color: #b6d96c;     
+}
+    </style>
+</head>
+<body>
+<header>
+    <h1>Bambush</h1>
+</header>
+
+<nav>
+    <a href="index.html">Hjem</a>
+    <a href="produkter.html">Produkter</a>
+    <a href="OmOs.html">Om os</a>
+</nav>
+
+<main>
+    <h2>Vores T-shirts</h2>
+    <hr>
+    <p>Vores t-shirts, designet af pandaen selv</p>
+    <p>Alle vores t-shirts er helt bæredygtige og lavet af silkeblødt lyocell af bambusfibre</p>
+    <hr>
+    <div class="image-grid">
+        <figure>
+        <img src="foto/foto_hanging.png" alt="Hanging out" width="640" height="600">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Normal t-shirt <br>Pris: 199 kr</figcaption>
+        </figure>
+        <figure>
+        <img src="foto/foto_jul.png" alt="Merry christmas" width="640" height="600">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Normal t-shirt <br>Pris: 199 kr</figcaption>
+        </figure>
+        <figure>
+        <img src="foto/foto_kemi.png" alt="Kemi-panda" width="640" height="600">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Luksus t-shirt <br>Pris: 249 kr</figcaption>
+        </figure>
+        <figure>
+        <img src="foto/foto_kinesisk.png" alt="Spiser dumpling" width="640" height="600">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Luksus t-shirt <br>Pris: 249 kr</figcaption>
+        </figure>
+        <figure>
+        <img src="foto/foto_kriger.png" alt="Kriger-panda" width="640" height="600">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Luksus t-shirt <br>Pris: 249 kr</figcaption>
+        </figure>
+        <figure>
+        <img src="foto/foto_spidy.png" alt="Panda med spindelvæv" width="640" height="600">
+        <figcaption style="border-style: hidden solid solid; padding:6px;">Luksus t-shirt <br>Pris: 249 kr</figcaption>
+        </figure>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+    <div>© 2026 • Bambush</div>
+    <div style="font-size: 14.5px;">Kontakt os på: <br> Tlf: (+45) 1234 5678 <br> Mail: info@bambush.dk</div>
+    <div>Vores politikker: <br> <a href="Handelsbetingelser.html" style="color: white; font-size: 14.5px;">Handelsbetingelser</a></div>
+    </div>
+</footer>
+
+<!-- Cookie boks -->
+<div id="cookie-box">
+    <p>Vi bruger cookies til at forbedre din oplevelse. Ved at fortsætte accepterer du brugen af cookies.</p>
+    <button id="accept-cookies">Accepter</button>
+</div>
+
+<script src="script.js" ></script>
+
+</body>
+</html>
